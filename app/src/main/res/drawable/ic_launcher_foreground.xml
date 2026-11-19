@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Left code bracket -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M34,30 H27 C24.8,30 23,31.8 23,34 V74 C23,76.2 24.8,78 27,78 H34 V70 H31 V38 H34 Z" />
+    <!-- Right code bracket -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M74,30 H81 C83.2,30 85,31.8 85,34 V74 C85,76.2 83.2,78 81,78 H74 V70 H77 V38 H74 Z" />
+    <!-- Center emerald badge -->
+    <path
+        android:fillColor="#FF00E5A3"
+        android:pathData="M43,40 H65 C67.8,40 70,42.2 70,45 V63 C70,65.8 67.8,68 65,68 H43 C40.2,68 38,65.8 38,63 V45 C38,42.2 40.2,40 43,40 Z" />
+    <!-- Bold check mark inside badge -->
+    <path
+        android:fillColor="#FF0D1B2A"
+        android:pathData="M45.5,54.5 L51.5,60.5 L63.5,48.5 L59.8,44.8 L51.5,53.1 L49.2,50.8 Z" />
+</vector>

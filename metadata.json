@@ -1,0 +1,6 @@
+{
+  "name": "Code Catcher",
+  "description": "On-device notification code catcher for WhatsApp and Instagram with a floating overlay bubble and clipboard history.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

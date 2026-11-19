@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Code Catcher</string>
+    <string name="notification_listener_label">Code Catcher Listener</string>
+
+    <!-- Navigation -->
+    <string name="nav_monitor">Catcher</string>
+    <string name="nav_history">History</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Main Screen -->
+    <string name="app_tagline">100% On-Device • Offline</string>
+    <string name="status_monitoring_on">Monitoring Active</string>
+    <string name="status_monitoring_paused">Monitoring Paused</string>
+    <string name="status_monitoring_idle">Select an App to Start</string>
+    <string name="status_subtitle_on">Watching selected notifications for 15–16 digit codes</string>
+    <string name="status_subtitle_paused">Tap the floating bubble or switch below to resume</string>
+    <string name="status_subtitle_idle">Activate WhatsApp or Instagram below to launch the floating bubble</string>
+
+    <string name="section_apps_to_watch">Apps to Monitor</string>
+    <string name="whatsapp_title">WhatsApp</string>
+    <string name="whatsapp_subtitle">Standard &amp; Business chats, groups &amp; channels</string>
+    <string name="whatsapp_packages">com.whatsapp • com.whatsapp.w4b</string>
+    <string name="instagram_title">Instagram</string>
+    <string name="instagram_subtitle">Direct messages, groups &amp; channels</string>
+    <string name="instagram_packages">com.instagram.android</string>
+
+    <string name="state_active">ACTIVE</string>
+    <string name="state_off">OFF</string>
+
+    <!-- Setup / Permissions -->
+    <string name="setup_card_title">Permissions Setup</string>
+    <string name="setup_all_ready">All permissions granted — ready to catch codes</string>
+    <string name="setup_missing_count">%1$d required step(s) remaining</string>
+    <string name="setup_open_guide">Setup Guide</string>
+
+    <string name="onboarding_title">Quick Setup</string>
+    <string name="onboarding_subtitle">Grant these on-device permissions so Code Catcher can read notifications, float over apps, and stay alive in the background.</string>
+    <string name="perm_notif_access_title">1. Notification Access</string>
+    <string name="perm_notif_access_desc">Lets Code Catcher read incoming WhatsApp &amp; Instagram notifications locally.</string>
+    <string name="perm_overlay_title">2. Display Over Other Apps</string>
+    <string name="perm_overlay_desc">Shows the draggable green/grey floating bubble and enables Android 10+ background copy.</string>
+    <string name="perm_battery_title">3. Ignore Battery Optimization</string>
+    <string name="perm_battery_desc">Prevents Android from pausing the foreground listener when the screen is off.</string>
+    <string name="perm_post_notif_title">4. Service Notification (Android 13+)</string>
+    <string name="perm_post_notif_desc">Required to display the persistent monitoring status notification.</string>
+    <string name="btn_grant">Grant</string>
+    <string name="btn_granted">Granted</string>
+    <string name="btn_done">Done</string>
+    <string name="btn_skip_for_now">Skip for now</string>
+
+    <!-- Floating Bubble & Foreground Notification -->
+    <string name="notif_channel_name">Code Catcher Monitor</string>
+    <string name="notif_channel_desc">Keeps notification code catching active in the background</string>
+    <string name="notif_title_active">Code Catcher is active</string>
+    <string name="notif_title_paused">Code Catcher is paused</string>
+    <string name="notif_action_pause">Pause</string>
+    <string name="notif_action_resume">Resume</string>
+    <string name="notif_action_stop">Turn Off</string>
+    <string name="bubble_copied_label">Copied ✓</string>
+    <string name="bubble_cd">Code Catcher floating toggle</string>
+
+    <!-- History -->
+    <string name="history_title">Copied Codes</string>
+    <string name="history_empty_title">No codes caught yet</string>
+    <string name="history_empty_desc">When a 15 or 16 digit code arrives in an active app notification, it will appear here and copy automatically.</string>
+    <string name="btn_copy_again">Copy again</string>
+    <string name="snackbar_copied">Copied %1$s to clipboard</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="setting_vibrate_title">Vibrate on copy</string>
+    <string name="setting_vibrate_desc">Short haptic pulse when a new code is copied</string>
+    <string name="setting_sound_title">Sound on copy</string>
+    <string name="setting_sound_desc">Play a subtle notification chime when a code is caught</string>
+    <string name="setting_boot_title">Auto-start after reboot</string>
+    <string name="setting_boot_desc">Automatically restart monitoring service on BOOT_COMPLETED</string>
+    <string name="setting_clear_history_title">Clear history</string>
+    <string name="setting_clear_history_desc">Remove all saved codes and reset duplicate detection</string>
+    <string name="dialog_clear_title">Clear copied history?</string>
+    <string name="dialog_clear_message">This deletes all locally saved codes and allows previously caught codes to be copied again.</string>
+    <string name="btn_clear">Clear</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="privacy_card_title">Strict On-Device Privacy</string>
+    <string name="privacy_card_desc">Code Catcher declares zero INTERNET permission. All notification parsing, regex matching, clipboard copying, and Room history stay strictly on your device.</string>
+</resources>
